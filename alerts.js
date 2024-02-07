@@ -14,7 +14,7 @@ const Alerts = () => {
     const showWarningAlert = () => {
         toast.warning('Be cautious. This is a warning message.', { autoClose: 2000 });
     };
-
+/// check
     return (
         <div>
             <button onClick={showSuccessAlert}>Show Success Alert</button>
